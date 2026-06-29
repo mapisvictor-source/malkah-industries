@@ -42,24 +42,34 @@ export default function Hero() {
         overflow: "hidden",
       }}
     >
-      {/* Floating background image */}
       <img
-        src={heroImage}
-        alt=""
-        style={{
-          position: "absolute",
-          height: "650px",
-          width: "auto",
-          opacity: 0.12,
-          top: "58%",
-          right: "-140px",
-          transform: "translateY(-50%)",
-          pointerEvents: "none",
-          filter: "grayscale(20%)",
-          zIndex: 0,
-          animation: "floatSlow 8s ease-in-out infinite",
-        }}
-      />
+  src={heroImage}
+  alt=""
+  style={{
+    position: "absolute",
+
+    top: 0,
+    left: 0,
+
+    width: "100%",
+    height: "100%",
+
+    objectFit: "cover",
+    objectPosition: "center",
+
+    opacity: 0.18,
+
+    filter: "blur(8px)",
+
+    transform: "scale(1.08)",
+
+    pointerEvents: "none",
+
+    zIndex: 0,
+
+    animation: "floatSlow 12s ease-in-out infinite alternate",
+  }}
+/>
 
       {/* Title */}
       <h1

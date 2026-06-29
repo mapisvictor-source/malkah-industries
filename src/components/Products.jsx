@@ -27,7 +27,7 @@ export default function Products() {
         "A balanced fertilizer blend engineered to support healthy development across multiple crop categories.",
       image: cardBg1,
       rotate: "-5deg",
-      left: "0px",
+      left: "40px",
     },
     {
       code: "MKH-02",
@@ -40,7 +40,7 @@ export default function Products() {
         "Designed to support vigorous vegetative growth and improved crop establishment.",
       image: cardBg2,
       rotate: "-2deg",
-      left: "110px",
+      left: "160px",
     },
     {
       code: "MKH-03",
@@ -53,7 +53,7 @@ export default function Products() {
         "Engineered for stronger yields and consistent performance across demanding agricultural environments.",
       image: cardBg3,
       rotate: "2deg",
-      left: "220px",
+      left: "280px",
     },
     {
       code: "MKH-04",
@@ -66,7 +66,7 @@ export default function Products() {
         "High nitrogen concentration designed for rapid plant development and productivity.",
       image: cardBg4,
       rotate: "5deg",
-      left: "330px",
+      left: "400px",
     },
   ];
 
@@ -124,12 +124,13 @@ export default function Products() {
         {/* Staircase Deck */}
 
         <div
-          style={{
-            position: "relative",
-            height: "530px",
-            marginBottom: "100px",
-          }}
-        >
+  style={{
+    position: "relative",
+    height: "530px",
+    width: "700px",
+    margin: "0 auto 100px auto",
+  }}
+>
           {products.map((product, index) => (
             <div
               key={index}
