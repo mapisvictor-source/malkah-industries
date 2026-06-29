@@ -38,7 +38,10 @@ export default function Navbar() {
         Malkah Industries
       </h2>
 
-      <button
+      <a
+  href="https://wa.me/2348036326805?text=Hello%20Malkah%20Industries,%20I%20would%20like%20to%20request%20a%20quote."
+  target="_blank"
+  rel="noopener noreferrer"
         style={{
           background: "#22c55e",
           color: "#fff",
@@ -52,7 +55,7 @@ export default function Navbar() {
         }}
       >
         Request Quote
-      </button>
+      </a>
     </div>
   );
 }

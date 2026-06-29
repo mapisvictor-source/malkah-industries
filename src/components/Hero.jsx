@@ -59,7 +59,7 @@ export default function Hero() {
       objectPosition: "center",
 
       opacity: 0.18,
-      filter: "blur(8px)",
+      filter: "blur(2px)",
 
       transform: "scale(1.08)",
 
@@ -135,6 +135,7 @@ export default function Hero() {
           cursor: "pointer",
           zIndex: 1,
           position: "relative",
+          marginTop: "28px",
         }}
       >
         Partner With Us
