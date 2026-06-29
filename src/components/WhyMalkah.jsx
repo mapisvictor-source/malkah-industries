@@ -58,7 +58,6 @@ export default function WhyMalkah() {
         position: "relative",
       }}
     >
-      {/* Pellet constellation atmosphere */}
       
 
       {/* Divider */}
@@ -72,7 +71,7 @@ export default function WhyMalkah() {
       >
         <div
           style={{
-            width: "92%",
+            width: "85%",
             height: "1px",
             background:
               "linear-gradient(to right,transparent,rgba(34,197,94,.25),transparent)",
