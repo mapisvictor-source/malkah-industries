@@ -21,55 +21,56 @@ export default function Hero() {
   }, []);
 
   return (
-    <section
-      style={{
-        minHeight: "100vh",
-        paddingTop: "180px",
-        paddingBottom: "140px",
-        paddingLeft: "40px",
-        paddingRight: "40px",
-
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: "18px",
-
-        textAlign: "center",
-        background: "#0f1511",
-        color: "white",
-        position: "relative",
-        overflow: "hidden",
-      }}
-    >
-      <img
-  src={heroImage}
-  alt=""
+   <section
   style={{
-    position: "absolute",
+    minHeight: "75vh",
 
-    top: 0,
-    left: 0,
+    paddingTop: "120px",
+    paddingBottom: "70px",
+    paddingLeft: "40px",
+    paddingRight: "40px",
 
-    width: "100%",
-    height: "100%",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: "18px",
 
-    objectFit: "cover",
-    objectPosition: "center",
+    textAlign: "center",
+    background: "#0f1511",
+    color: "white",
 
-    opacity: 0.18,
-
-    filter: "blur(8px)",
-
-    transform: "scale(1.08)",
-
-    pointerEvents: "none",
-
-    zIndex: 0,
-
-    animation: "floatSlow 12s ease-in-out infinite alternate",
+    position: "relative",
+    overflow: "hidden",
   }}
-/>
+>
+  <img
+    src={heroImage}
+    alt=""
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+
+      width: "100%",
+      height: "100%",
+
+      objectFit: "cover",
+      objectPosition: "center",
+
+      opacity: 0.18,
+      filter: "blur(8px)",
+
+      transform: "scale(1.08)",
+
+      pointerEvents: "none",
+
+      zIndex: 0,
+
+      animation:
+        "slowZoom 12s ease-in-out infinite alternate",
+    }}
+  />
 
       {/* Title */}
       <h1
